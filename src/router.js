@@ -9,6 +9,7 @@ import Vmodel from '@/views/Vmodel.vue'
 import SyncBind from '@/views/SyncBind.vue'
 import HookLifeCycle from '@/views/HookLifeCycle.vue'
 import AttrsProps from '@/views/AttrsProps.vue'
+import EmitParam from '@/views/emitParam/parent.vue'
 
 Vue.use(Router)
 
@@ -46,6 +47,10 @@ export default new Router({
         path: '/attrsprops',
         name: 'attrsprops',
         component: AttrsProps
+      },{
+        path: '/emitparam',
+        name: 'emitparam',
+        component: EmitParam
       }]
     }
   ]

@@ -8,6 +8,7 @@
       <Button to="syncbind">sync</Button>
       <Button to="hooklifecycle">hook-life-cycle</Button>
       <Button to="attrsprops">attrs-props</Button>
+      <Button to="emitparam">emitparam</Button>
     </div>
     <router-view/>
   </div>
