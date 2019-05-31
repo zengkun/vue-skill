@@ -11,7 +11,7 @@ export default {
       console.log("jsx click");
     }
   },
-  render: function(h) {
+  render() {
     return (
       <div>
         <h4>jsx 使用 --- {this.$props.msg}</h4>
